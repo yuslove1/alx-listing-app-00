@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { PROPERTYLISTINGSAMPLE } from '../constants';
-import PropertyCard from '../alx-listing-app-00/components/common/Card';
-import Pill from '../alx-listing-app-00/components/common/Pill';
+import PropertyCard from '../components/common/Card';
+import Pill from '../components/common/Pill';
 
 const Home: React.FC = () => {
   // State to store the currently selected filters.  Starts as an empty array.
