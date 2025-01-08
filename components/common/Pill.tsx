@@ -1,5 +1,5 @@
 import React from 'react';
-import { PillProps } from '@/constants';
+import { PillProps } from '../../../constants';
 
 const Pill: React.FC<PillProps> = ({ label, onClick, selected }) => {
   return (
